@@ -56,11 +56,11 @@ body {
   color: #85796b;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap"); */
 
 /* UTILITY */
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -92,11 +92,11 @@ li {
 h1 {
   color: #e74c3c;
   margin-bottom: 0.5rem;
-}
+} */
 
 /* CONTAINER AND CARDS */
 
-.container {
+/* .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   grid-gap: 1rem;
@@ -147,4 +147,4 @@ h1 {
   color: white;
   text-align: center;
   -ms-touch-action: none;
-}
+} */
