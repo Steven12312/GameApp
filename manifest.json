@@ -1,6 +1,6 @@
 {
   "name": "App Game",
-  "short_name": "DevCoffee",
+  "short_name": "AppGame",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#fdfdfd",
