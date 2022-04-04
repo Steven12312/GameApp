@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Dev'Coffee PWA</title>
 
-    <link rel="icon" href="images/icons/icon-128x128.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="manifest" href="/manifest.json" />
+  <!-- ios support -->
 
-    <link rel="manifest" href="manifest.json" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
-  </head>
-  <body>
-    <nav class="navbar">
-      <span class="toggle-nav" id="toggle-nav">
-          <i class="material-icons">menu</i>
-      </span>
-      <!-- <div class=""> -->
-      <a href="#" class="logo"><img src="logo.jpg" alt="">
-          <p>Company Name</p>
-      </a>
-      <!-- </div> -->
-      <ul class="main-nav" id="main-nav">
-          <li><a href="#" class="nav-links">Home</a></li>
-          <li><a href="#" class="nav-links">News</a></li>
-          <li><a href="#" class="nav-links">Conatct</a></li>
-          <li><a href="#" class="nav-links">About</a></li>
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Appp</title>
+
+</head>
+
+
+</head>
+
+<body>
+  <header>
+    <div id="brand"><a href="">App</a></div>
+    <nav>
+      <ul>
+        <li><button><a href="">Hello</a></button></li>
+        <li><button><a href="">Hello</a></button></li>
+        <li><button><a href="">Hello</a></button></li>
+        <li><button><a href="">Hello</a></button></li>
+        <li><button><a href="">Hello </a></button></li>
       </ul>
-  </nav>
-  <script>
-      let mainNav = document.getElementById('main-nav');
-      let toggleNav = document.getElementById('toggle-nav');
-      toggleNav.addEventListener('click', function () {
-          mainNav.classList.toggle('active')
-      });
-  </script>
-      
-      
-  
-  </body>
+    </nav>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><button><a href="">Hello</a></button></li>
+        <li><button><a href="">Hello</a></button></li>
+        <li><button><a href="">Hello</a></button></li>
+        <li><button><a href="">Hello</a></button></li>
+        <li><button><a href="">Hello </a></button></li>
+      </ul>
+    </div>
+  </header>
+  <script src="js/index.js"></script>
+
+
+ 
+</body>
+
 </html>
